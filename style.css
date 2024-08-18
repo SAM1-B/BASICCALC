@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrap{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(33, 136, 196);
+}
+.fieldWrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fieldsWrap input{
+    padding: 10px 20px;
+    outline: none;
+    margin-bottom: 10px;
+    border-radius:5px;
+    border: none;
+    
+}
+.buttons{
+    margin-top: 10px;
+}
+.buttons button{
+    font-size: 16px;
+    padding: 3px 5px;
+    background: rgb(255, 196, 85);
+    border: none;
+    cursor: pointer;
+}
+#showAnswer{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+
+}
+#showAnswerTwo{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+
+}
